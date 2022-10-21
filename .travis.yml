@@ -8,6 +8,9 @@ script:
   - npm run build
   - npm run export
   - touch out/.nojekyll
+  - git add out/
+  - git commit -m \"Deploy\"
+  - git subtree push --prefix out origin gh-pages
 deploy:
   provider: pages
   skip_cleanup: true
