@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  basePath: '/monireamini.github.io',
+  basePath: '',
 }

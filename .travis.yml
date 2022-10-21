@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - 16
+cache:
+  directories:
+    - node_modules
+script:
+  - npm run build
+  - npm run export
+  - touch out/.nojekyll
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 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
+  local_dir: out
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH =~ ^(master|main)$
