@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head'
 import { useRouter } from "next/router";
+import Footer from "./footer";
 
 const MainLayout = ({children, ...customMeta}) => {
   const router = useRouter();
@@ -39,7 +40,7 @@ const MainLayout = ({children, ...customMeta}) => {
         <main className="dark:bg-gray-800 w-full">
           {/*<Navbar />*/}
           <div>{children}</div>
-          {/*<Footer />*/}
+          <Footer />
         </main>
       </div>
   );
