@@ -1,5 +1,5 @@
 import {apiRequest} from "../helpers/api-request";
-import MainLayout from "../components/main-layout";
+import MainLayout from "../components/main-layout/main-layout";
 import {useEffect} from "react";
 
 export default function Home() {

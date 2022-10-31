@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head'
 import { useRouter } from "next/router";
-import Footer from "./footer";
-import Navbar from "./navbar";
+import Footer from "../footer/footer";
+import Navbar from "../navbar/navbar";
 
 const MainLayout = ({children, ...customMeta}) => {
   const router = useRouter();
@@ -38,11 +38,13 @@ const MainLayout = ({children, ...customMeta}) => {
           {/*    <meta property="article:published_time" content={meta.date} />*/}
           {/*)}*/}
         </Head>
+
         <main className="dark:bg-gray-800 w-full">
           <Navbar />
           <div>{children}</div>
           <Footer />
         </main>
+
       </div>
   );
 };
