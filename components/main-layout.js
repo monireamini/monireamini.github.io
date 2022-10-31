@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head'
 import { useRouter } from "next/router";
 
-const ContainerBlock = ({children, ...customMeta}) => {
+const MainLayout = ({children, ...customMeta}) => {
   const router = useRouter();
 
   const meta = {
@@ -45,4 +45,4 @@ const ContainerBlock = ({children, ...customMeta}) => {
   );
 };
 
-export default ContainerBlock;
+export default MainLayout;

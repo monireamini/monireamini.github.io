@@ -1,5 +1,5 @@
 import {apiRequest} from "../helpers/api-request";
-import ContainerBlock from "../components/container-block";
+import MainLayout from "../components/main-layout";
 import {useEffect} from "react";
 
 export default function Home() {
@@ -20,8 +20,8 @@ export default function Home() {
     }, []);
 
     return (
-        <ContainerBlock>
+        <MainLayout>
             <p>Hi</p>
-        </ContainerBlock>
+        </MainLayout>
     )
 }
