@@ -6,7 +6,7 @@ const MainLayout = ({children, ...customMeta}) => {
   const router = useRouter();
 
   const meta = {
-    title: "Monireh Amini - Developer, Programmer",
+    title: "Monireh Amini - Front-end Developer",
     description: `I've been developing websites for 3 years straight. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
@@ -32,9 +32,9 @@ const MainLayout = ({children, ...customMeta}) => {
           <meta property="og:description" content={meta.description} />
           <meta property="og:title" content={meta.title} />
           <meta property="og:image" content={meta.image} />
-          {meta.date && (
-              <meta property="article:published_time" content={meta.date} />
-          )}
+          {/*{meta.date && (*/}
+          {/*    <meta property="article:published_time" content={meta.date} />*/}
+          {/*)}*/}
         </Head>
         <main className="dark:bg-gray-800 w-full">
           {/*<Navbar />*/}
