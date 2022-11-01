@@ -1,5 +1,6 @@
 import React from "react";
 import myPortfolio from "../../data/my-portfolio";
+import SocialButtons from "../contacts/social-buttons";
 
 export default function AboutMe() {
     return (
@@ -9,6 +10,7 @@ export default function AboutMe() {
                     About Me.
                 </h1>
             </div>
+
             <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
                 <div className="text-container max-w-6xl mx-auto pt-20">
                     <p
@@ -19,88 +21,10 @@ export default function AboutMe() {
                     </p>
                 </div>
             </div>
+
             <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
                 <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
-                    {/* Social Buttons */}
-                    <div className="inline-flex flex-col">
-                        <div>
-                            <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                                Contact
-                            </h1>
-                            <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                                For any sort help / enquiry, shoot a{" "}
-                                <a
-                                    href={`mailto:${myPortfolio.email}`}
-                                    className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                                >
-                                    mail
-                                </a>{" "}
-                                {`and I'll get back.`}
-                            </p>
-                        </div>
-                        <div className="mt-8">
-                            <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                                Job Opportunities
-                            </h1>
-                            <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                                {`I'm looking for a job currently, If you see me as a good fit,`}
-                                {" "}check my{" "}
-                                <a
-                                    href={myPortfolio.resumeUrl}
-                                    target="__blank"
-                                    className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                                >
-                                    CV
-                                </a>{" "}
-                                {`and I'd love to work for you.`}
-                            </p>
-                        </div>
-                        {/* Social Links */}
-                        <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
-                            Social Links
-                        </h1>
-                        <div className="mt-4 ml-4">
-                            <div className="flex flex-row justify-start items-center">
-                                <a
-                                    href={myPortfolio.socialLinks.github}
-                                    className="flex flex-row items-center space-x-4 group"
-                                >
-                                    <p className="my-4">&rarr;</p>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div
-                                            className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                                        GitHub
-                                    </p>
-                                </a>
-                            </div>
-                            <div className="flex flex-row justify-start items-center">
-                                <a
-                                    href={myPortfolio.socialLinks.linkedin}
-                                    className="flex flex-row items-center space-x-4 group"
-                                >
-                                    <p className="my-4">&rarr;</p>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div
-                                            className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                                        LinkedIn
-                                    </p>
-                                </a>
-                            </div>
-                            <div className="flex flex-row justify-start items-center">
-                                <a
-                                    href={myPortfolio.socialLinks.instagram}
-                                    className="flex flex-row items-center space-x-4 group"
-                                >
-                                    <div className="my-4">&rarr;</div>
-                                    <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div
-                                            className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
-                                        Instagram
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <SocialButtons/>
 
                     {/* Text area */}
                     <div className="col-span-1 md:col-span-2">
