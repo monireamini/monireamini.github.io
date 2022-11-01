@@ -2,6 +2,7 @@ import {apiRequest} from "../helpers/api-request";
 import MainLayout from "../components/main-layout/main-layout";
 import {useEffect} from "react";
 import Intro from "../components/intro/intro";
+import Projects from "../components/projects/projects";
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
     return (
         <MainLayout>
             <Intro/>
+            <Projects/>
         </MainLayout>
     )
 }
