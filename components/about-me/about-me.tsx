@@ -46,6 +46,10 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
+                                src="/tech-stack/nextjs.png"
+                                className="h-20 w-20 mx-4 my-4"
+                            />
+                            <img
                                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
