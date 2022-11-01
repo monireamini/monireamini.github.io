@@ -34,9 +34,11 @@ const Navbar = () => {
 
                 {/* Menus */}
                 <div className="space-x-8 hidden md:block">
+                    <NavbarLink currentPath={router.asPath} targetPath={'/'} label={'Home'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/about'} label={'About'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/projects'} label={'Projects'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/experience'} label={'Experience'}/>
+                    <NavbarLink currentPath={router.asPath} targetPath={'/recommendations'} label={'Recommendations'}/>
                     {/*<NavbarLink currentPath={router.asPath} targetPath={'/contact'} label={'Contact'}/>*/}
                 </div>
 
@@ -80,6 +82,9 @@ const Navbar = () => {
 
             {/* sidebar*/}
             <div className="space-x-8 block md:hidden mt-4">
+                <Link href="/" className="text-base font-normal text-gray-600 dark:text-gray-300">
+                    Home
+                </Link>
                 <Link href="/about" className="text-base font-normal text-gray-600 dark:text-gray-300">
                     About
                 </Link>
@@ -88,6 +93,9 @@ const Navbar = () => {
                 </Link>
                 <Link href="/experience" className="text-base font-normal text-gray-600 dark:text-gray-300">
                     Experience
+                </Link>
+                <Link href="/recommendations" className="text-base font-normal text-gray-600 dark:text-gray-300">
+                    Recommendations
                 </Link>
                 {/*<Link href="/contact" className="text-base font-normal text-gray-600 dark:text-gray-300">*/}
                 {/*    Contact*/}
