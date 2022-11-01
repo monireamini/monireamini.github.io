@@ -6,10 +6,10 @@ const ProjectItem = ({title, images}) => {
             // href="https://tailwindmasterkit.com"
             className="w-full block col-span-3 shadow-2xl p-2"
         >
-            <div className="flex flex-row space-x-2">
+            <div className="flex flex-col col-span-3 md:flex-row space-y-2 md:space-x-2">
                 {images.map((image, index) => {
                     return (
-                        <div className="w-1/4 relative flex flex-grow overflow-hidden" key={image}>
+                        <div className="w-full md:w-1/4 relative flex flex-grow overflow-hidden" key={image}>
                             <img
                                 src={image}
                                 alt={title}
