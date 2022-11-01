@@ -37,7 +37,7 @@ const Navbar = () => {
                     <NavbarLink currentPath={router.asPath} targetPath={'/about'} label={'About'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/projects'} label={'Projects'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/experience'} label={'Experience'}/>
-                    <NavbarLink currentPath={router.asPath} targetPath={'/contact'} label={'Contact'}/>
+                    {/*<NavbarLink currentPath={router.asPath} targetPath={'/contact'} label={'Contact'}/>*/}
                 </div>
 
                 {/* contacts and dark/light theme switch */}
@@ -89,9 +89,9 @@ const Navbar = () => {
                 <Link href="/experience" className="text-base font-normal text-gray-600 dark:text-gray-300">
                     Experience
                 </Link>
-                <Link href="/contact" className="text-base font-normal text-gray-600 dark:text-gray-300">
-                    Contact
-                </Link>
+                {/*<Link href="/contact" className="text-base font-normal text-gray-600 dark:text-gray-300">*/}
+                {/*    Contact*/}
+                {/*</Link>*/}
             </div>
 
         </div>
