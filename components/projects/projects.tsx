@@ -1,12 +1,14 @@
 import React from 'react';
 import Link from "next/link";
+import projects from "../../data/projects";
+import ProjectItem from "./project-item";
 
 const Projects = () => {
     return (
         <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-10">
             <div className="max-w-6xl mx-auto">
                 {/* title and see all button */}
-                <header className="flex flex-col md:flex-row justify-between items-center pt-10 mx-10 md:my-20 lg:my-0">
+                <header className="flex flex-col md:flex-row justify-between items-center py-10 mx-10 md:my-20 lg:my-0">
                     <h1 className="text-4xl lg:text-6xl max-w-lg font-bold text-gray-500 mb-10 md:my-0 md:text-white dark:text-gray-600 text-center">
                         Projects
                     </h1>
@@ -34,7 +36,13 @@ const Projects = () => {
                 </header>
 
                 {/* items */}
-
+                <div className="grid md:grid-cols-3 gap-8 pb-40">
+                    {projects.map((project) => {
+                        return (
+                            <ProjectItem key={project.id} {...project}/>
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )
