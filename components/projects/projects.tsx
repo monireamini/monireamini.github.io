@@ -5,7 +5,7 @@ import ProjectItem from "./project-item";
 
 const Projects = () => {
     return (
-        <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-10">
+        <div className="bg-[#F1F1F1] dark:bg-gray-900">
             <div className="max-w-6xl mx-auto">
                 {/* title and see all button */}
                 <header className="flex flex-col md:flex-row justify-between items-center py-10 mx-10 md:my-20 lg:my-0">
@@ -36,7 +36,7 @@ const Projects = () => {
                 </header>
 
                 {/* items */}
-                <div className="grid md:grid-cols-3 gap-8 pb-40">
+                <div className="grid md:grid-cols-3 gap-8">
                     {projects.map((project) => {
                         return (
                             <ProjectItem key={project.id} {...project}/>
