@@ -9,7 +9,7 @@ const ProjectItem = ({title, images}) => {
             <div className="flex flex-col col-span-3 my-2 md:flex-row md:space-x-2">
                 {images.map((image, index) => {
                     return (
-                        <div className="w-full md:w-1/4 relative flex flex-grow overflow-hidden" key={image}>
+                        <div className="w-full md:w-1/4 relative my-2 flex flex-grow overflow-hidden" key={image}>
                             <img
                                 src={image}
                                 alt={title}
