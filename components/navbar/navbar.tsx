@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import Link from "next/link";
 import {useRouter} from "next/router";
 import {useTheme} from "next-themes";
-import socialLinks from "../../data/social-links";
 import NavbarLink from "./navbar-link";
 import Contacts from "../contacts/contacts";
 

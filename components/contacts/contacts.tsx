@@ -1,11 +1,11 @@
 import React from 'react';
-import socialLinks from "../../data/social-links";
+import myPortfolio from "../../data/my-portfolio";
 
 const Contacts = () => {
     return (
         <>
             <a
-                href={socialLinks.linkedin}
+                href={myPortfolio.socialLinks.linkedin}
                 className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
                 <svg
@@ -22,7 +22,7 @@ const Contacts = () => {
             </a>
 
             <a
-                href={socialLinks.github}
+                href={myPortfolio.socialLinks.github}
                 className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
                 <svg
@@ -38,7 +38,7 @@ const Contacts = () => {
             </a>
 
             <a
-                href={socialLinks.gmail}
+                href={myPortfolio.socialLinks.gmail}
                 className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -49,7 +49,7 @@ const Contacts = () => {
             </a>
 
             <a
-                href={socialLinks.instagram}
+                href={myPortfolio.socialLinks.instagram}
                 className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
                 <svg

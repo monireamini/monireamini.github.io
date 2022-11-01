@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionHeader from "../section-header/section-header";
+import myPortfolio from "../../data/my-portfolio";
 
 const GithubStats = () => {
     return (
@@ -8,7 +9,7 @@ const GithubStats = () => {
                 <SectionHeader
                     title={'Contributions'}
                     buttonLabel={'View GitHub'}
-                    linkPath={`https://github.com/monireamini`}
+                    linkPath={myPortfolio.socialLinks.github}
                 />
 
                 <img src={'/github/contributions.png'} className='px-10'/>
