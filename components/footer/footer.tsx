@@ -14,7 +14,7 @@ const Footer = () => {
                         <p>&copy; Monireh. All Rights Reserved.</p>
                     </div>
                     <div>
-                        <p>
+                        <div>
                             Developed by
                             <div
                                 className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-100">
@@ -25,7 +25,7 @@ const Footer = () => {
                                     Monireh Amini
                                 </a>
                             </div>
-                        </p>
+                        </div>
                     </div>
                     <div className="space-x-4 flex flex-row items-center">
                         <Contacts/>
