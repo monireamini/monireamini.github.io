@@ -27,9 +27,9 @@ const Navbar = () => {
                         <h1 className="font-semibold text-xl dark:text-gray-100">
                             Monireh Amini
                         </h1>
-                        <p className="text-base font-light text-gray-500 dark:text-gray-300">
-                            Front-End Developer
-                        </p>
+                        {/*<p className="text-base font-light text-gray-500 dark:text-gray-300">*/}
+                        {/*    Front-End Developer*/}
+                        {/*</p>*/}
                     </Link>
                 </div>
 
