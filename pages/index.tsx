@@ -1,6 +1,7 @@
 import {apiRequest} from "../helpers/api-request";
 import MainLayout from "../components/main-layout/main-layout";
 import {useEffect} from "react";
+import Intro from "../components/intro/intro";
 
 export default function Home() {
 
@@ -21,7 +22,7 @@ export default function Home() {
 
     return (
         <MainLayout>
-            <p>Hi</p>
+            <Intro/>
         </MainLayout>
     )
 }
