@@ -38,7 +38,6 @@ const Navbar = () => {
                     <NavbarLink currentPath={router.asPath} targetPath={'/about'} label={'About'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/projects'} label={'Projects'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/experience'} label={'Experience'}/>
-                    <NavbarLink currentPath={router.asPath} targetPath={'/recommendations'} label={'Recommendations'}/>
                     {/*<NavbarLink currentPath={router.asPath} targetPath={'/contact'} label={'Contact'}/>*/}
                 </div>
 
@@ -93,9 +92,6 @@ const Navbar = () => {
                 </Link>
                 <Link href="/experience" className="text-base font-normal text-gray-600 dark:text-gray-300">
                     Experience
-                </Link>
-                <Link href="/recommendations" className="text-base font-normal text-gray-600 dark:text-gray-300">
-                    Recommendations
                 </Link>
                 {/*<Link href="/contact" className="text-base font-normal text-gray-600 dark:text-gray-300">*/}
                 {/*    Contact*/}
