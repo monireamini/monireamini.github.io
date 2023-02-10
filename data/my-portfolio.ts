@@ -28,7 +28,7 @@ const myPortfolio = {
             company: "Magny",
             year: "Mar 2020 - Feb 2023",
             companyLink: "https://magny.com.au",
-            desc: "styled-components · SendGrid · RevenueCat · Apple Pay · Google Pay · AppsFlyer · Formik · HTML · Appcenter · Node.js · Firebase · Codepush · React.js · React Native · JavaScript · Redux · Cascading Style Sheets (CSS)",
+            desc: "Styled-components · SendGrid · RevenueCat · Apple Pay · Google Pay · AppsFlyer · Formik · HTML · Appcenter · Node.js · Firebase · Codepush · React.js · React Native · JavaScript · Redux · Cascading Style Sheets (CSS)",
         },
         {
             title: "Frontend Developer",
