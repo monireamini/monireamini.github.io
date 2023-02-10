@@ -18,8 +18,15 @@ const myPortfolio = {
     experience: [
         {
             title: "Frontend Developer",
+            company: "Uliss",
+            year: "Nov 2022 - Present",
+            companyLink: "https://uliss.ir",
+            desc: "Redux.js · Redux Toolkit · LESS (Stylesheet Language) · Ant Design · Progressive Web Applications (PWAs) · React.js · JavaScript",
+        },
+        {
+            title: "Frontend Developer",
             company: "Magny",
-            year: "Mar 2020 - Present",
+            year: "Mar 2020 - Feb 2023",
             companyLink: "https://magny.com.au",
             desc: "styled-components · SendGrid · RevenueCat · Apple Pay · Google Pay · AppsFlyer · Formik · HTML · Appcenter · Node.js · Firebase · Codepush · React.js · React Native · JavaScript · Redux · Cascading Style Sheets (CSS)",
         },
