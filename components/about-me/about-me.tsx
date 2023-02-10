@@ -126,7 +126,7 @@ export default function AboutMe() {
                                 className="h-20 w-26 mx-4 my-4"
                             />
                             <img
-                                src="https://styled-components.com/logo.png"
+                                src="/tech-stack/styled-component.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                         </div>
