@@ -58,6 +58,10 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
+                                src="https://lesscss.org/public/img/less_logo.png"
+                                className="h-20 w-30 mx-4 my-4"
+                            />
+                            <img
                                 src="/tech-stack/html.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
@@ -66,7 +70,7 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                                src="/tech-stack/git.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
@@ -74,7 +78,7 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                                src="/tech-stack/jira.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
@@ -90,7 +94,39 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="/tech-stack/jira.png"
+                                src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+                                className="h-20 w-20 mx-4 my-4"
+                            />
+                            <img
+                                src="https://webimages.mongodb.com/_com_assets/cms/kuyj3d95v5vbmm2f4-horizontal_white.svg?auto=format%252Ccompress"
+                                className="h-20 w-24 mx-4 my-4"
+                            />
+                            <img
+                                src="https://www.vectorlogo.zone/logos/appcenterms/appcenterms-ar21.svg"
+                                className="h-20 w-30 mx-4 my-4"
+                            />
+                            <img
+                                src="/tech-stack/revenuecat.png"
+                                className="h-20 w-30 mx-4 my-4"
+                            />
+                            <img
+                                src="https://pay.google.com/about/static_kcs/images/logos/footer-logo.svg"
+                                className="h-20 w-28 mx-4 my-4"
+                            />
+                            <img
+                                src="https://logodownload.org/wp-content/uploads/2019/09/apple-pay-logo-0.png"
+                                className="h-20 w-30 mx-4 my-4"
+                            />
+                            <img
+                                src="/tech-stack/appsflyer.png"
+                                className="h-20 w-30 mx-4 my-4"
+                            />
+                            <img
+                                src="https://d15tnd3q55f8nl.cloudfront.net/static/SG_Twilio_Lockup_Social-56f3cfd2f6b0c62422980170d57fac64.png"
+                                className="h-20 w-26 mx-4 my-4"
+                            />
+                            <img
+                                src="https://styled-components.com/logo.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                         </div>
