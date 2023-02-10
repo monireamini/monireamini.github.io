@@ -114,7 +114,7 @@ export default function AboutMe() {
                                 className="h-20 w-28 mx-4 my-4"
                             />
                             <img
-                                src="https://logodownload.org/wp-content/uploads/2019/09/apple-pay-logo-0.png"
+                                src="/tech-stack/applepay.png"
                                 className="h-20 w-30 mx-4 my-4"
                             />
                             <img
