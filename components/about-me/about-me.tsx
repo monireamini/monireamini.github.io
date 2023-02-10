@@ -102,7 +102,7 @@ export default function AboutMe() {
                                 className="h-20 w-24 mx-4 my-4"
                             />
                             <img
-                                src="https://www.vectorlogo.zone/logos/appcenterms/appcenterms-ar21.svg"
+                                src="/tech-stack/appcenter.png"
                                 className="h-20 w-30 mx-4 my-4"
                             />
                             <img
