@@ -37,7 +37,7 @@ const Navbar = () => {
                 <div className="space-x-8 hidden md:block">
                     <NavbarLink currentPath={router.asPath} targetPath={'/'} label={'Home'}/>
                     <NavbarLink currentPath={router.asPath} targetPath={'/about'} label={'About'}/>
-                    <NavbarLink currentPath={router.asPath} targetPath={'/projects'} label={'Projects'}/>
+                    {/*<NavbarLink currentPath={router.asPath} targetPath={'/projects'} label={'Projects'}/>*/}
                     <NavbarLink currentPath={router.asPath} targetPath={'/experience'} label={'Experience'}/>
                     {/*<NavbarLink currentPath={router.asPath} targetPath={'/contact'} label={'Contact'}/>*/}
                 </div>
@@ -88,9 +88,10 @@ const Navbar = () => {
                 <Link href="/about" className="text-base font-normal text-gray-600 dark:text-gray-300">
                     About
                 </Link>
-                <Link href="/projects" className="text-base font-normal text-gray-600 dark:text-gray-300">
-                    Projects
-                </Link>
+                {/* todo: add projects page */}
+                {/*<Link href="/projects" className="text-base font-normal text-gray-600 dark:text-gray-300">*/}
+                {/*    Projects*/}
+                {/*</Link>*/}
                 <Link href="/experience" className="text-base font-normal text-gray-600 dark:text-gray-300">
                     Experience
                 </Link>
