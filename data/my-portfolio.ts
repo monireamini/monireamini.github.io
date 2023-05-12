@@ -43,6 +43,7 @@ const myPortfolio = {
     socialLinks: {
         linkedin: 'https://www.linkedin.com/in/monirehamini/',
         github: 'https://github.com/monireamini',
+        ponisha: 'https://ponisha.ir/profile/minero',
         instagram: 'https://www.instagram.com/mineroworld/',
         gmail: 'mailto:monireamini@gmail.com'
     },
