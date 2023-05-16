@@ -18,7 +18,7 @@ const Intro = () => {
 
             {/* Image container */}
             <div className="relative w-full md:w-1/2 md:mx-4 mt-10 flex justify-center">
-                <div className="w-3/4">
+                <div className="w-2/4">
                     <img src={'/avatar.png'} alt="MonirehAmini" className="shadow" />
                 </div>
             </div>
