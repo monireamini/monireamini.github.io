@@ -7,7 +7,7 @@ const projects = [
     {
         id: 'soha',
         title: 'Soha Academy',
-        images: ['/projects/soha/soha-1.png', '/projects/soha/soha-2.png', '/projects/soha/soha-3.png', '/projects/soha/soha-4.png']
+        images: ['/projects/soha/soha-1.png', '/projects/soha/soha-2.png', '/projects/soha/soha-3.png', '/projects/soha/soha-4.png', '/projects/soha/soha-5.png']
     },
     {
         id: 'soluzy',
