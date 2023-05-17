@@ -9,8 +9,8 @@ export default function Home() {
     return (
         <MainLayout>
             <Intro/>
-            <Projects/>
             <Recommendations />
+            <Projects/>
             {/*<Repositories/>*/}
             <GithubStats />
         </MainLayout>
