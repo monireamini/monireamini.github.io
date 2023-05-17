@@ -3,20 +3,12 @@ import recommendations from "../../data/recommendations";
 import SectionHeader from "../section-header/section-header";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {Carousel} from 'react-responsive-carousel';
-import {noop} from "../../helpers/utils";
 
 const Projects = () => {
     return (
-        <div className="bg-[#F1F1F1] dark:bg-gray-900">
+        <div className="bg-[#F1F1F1] dark:bg-gray-900 pb-12">
             <div className="max-w-6xl mx-auto">
                 <SectionHeader title={'Recommendations'} buttonLabel={'View all'} linkPath={'/projects'}/>
-
-
-                {/*{recommendations.map((item) => {*/}
-                {/*    return (*/}
-                {/*        <div key={item.id}>{item.text}</div>*/}
-                {/*    )*/}
-                {/*})}*/}
 
                 <Carousel
                     autoPlay

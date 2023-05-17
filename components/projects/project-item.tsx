@@ -2,10 +2,7 @@ import React from 'react';
 
 const ProjectItem = ({title, images}) => {
     return (
-        <a
-            // href="https://tailwindmasterkit.com"
-            className="w-full block col-span-3 shadow-2xl p-2"
-        >
+        <a className="w-full block col-span-3 shadow-2xl p-2">
             <div className="flex flex-col col-span-3 my-2 md:flex-row md:space-x-2">
                 {images.map((image, index) => {
                     return (
