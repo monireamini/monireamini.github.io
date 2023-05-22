@@ -6,7 +6,7 @@ import {Carousel} from 'react-responsive-carousel';
 
 const Projects = () => {
     return (
-        <div className="bg-[#F1F1F1] dark:bg-gray-900 pb-12">
+        <div className="pb-12">
             <div className="max-w-6xl mx-auto">
                 <SectionHeader title={'Recommendations'} buttonLabel={'View all'} linkPath={'/projects'}/>
 
@@ -20,7 +20,7 @@ const Projects = () => {
                 >
                     {recommendations.map((item) => {
                         return (
-                            <div key={item.id}>
+                            <div key={item.id} className="px-6 xl:px-0">
                                 <p className="text-left font-bold text-xl">{item.name}</p>
                                 <p className="text-left pb-2 text-xs text-slate-400">{item.role}</p>
                                 <p className="text-justify">{item.text}</p>
