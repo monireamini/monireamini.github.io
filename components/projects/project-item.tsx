@@ -12,10 +12,10 @@ const ProjectItem = ({title, images}) => {
                                 alt={title}
                                 className="transform hover:scale-125 transition duration-2000 ease-out rounded-md"
                             />
-                            <h1 className="absolute top-2 left-2 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                            <h1 className="absolute top-2 left-2 text-gray-50 font-bold lg:text-xl bg-red-500 rounded-md px-2">
                                 {title}
                             </h1>
-                            <h1 className="absolute bottom-2 left-2 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                            <h1 className="absolute bottom-2 left-2 text-gray-50 font-bold lg:text-xl bg-red-500 rounded-md px-2">
                                 {`0${index + 1}`}
                             </h1>
                         </div>
