@@ -10,7 +10,7 @@ const Projects = () => {
                 <SectionHeader title={'Projects'} buttonLabel={'View all'} linkPath={'/projects'}/>
 
                 {/* items */}
-                <div className="grid md:grid-cols-3">
+                <div className="grid md:grid-cols-5">
                     {projects.map((project) => {
                         return (
                             <ProjectItem key={project.id} {...project}/>
