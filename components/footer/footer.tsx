@@ -14,7 +14,7 @@ const Footer = () => {
                         <div>
                             &copy;
                             <div
-                                className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-100">
+                                className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-200">
                                 <a
                                     className="hover:bg-green-500 rounded-md px-1 py-1  hover:text-gray-50"
                                     href="https://monireamini.github.io"

@@ -10,7 +10,7 @@ const ProjectItem = ({title, images}) => {
                             <img
                                 src={image}
                                 alt={title}
-                                className="w-full transform hover:scale-125 transition duration-2000 ease-out rounded-md"
+                                className="w-full transform hover:scale-125 transition duration-1000 ease-in-out rounded-md"
                             />
                             <h1 className="absolute top-2 left-2 text-gray-50 font-bold lg:text-xl bg-red-500 rounded-md px-2">
                                 {title}
