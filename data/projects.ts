@@ -1,5 +1,10 @@
 const projects = [
     {
+        id: 'metaora',
+        title: 'MetaOra',
+        images: ['/projects/metaora/metaora-1.png', '/projects/metaora/metaora-2.png', '/projects/metaora/metaora-3.png', '/projects/metaora/metaora-4.png', '/projects/metaora/metaora-5.png']
+    },
+    {
         id: 'magny',
         title: 'Magny',
         images: ['/projects/magny/magny-1.png', '/projects/magny/magny-2.png', '/projects/magny/magny-3.png', '/projects/magny/magny-4.png', '/projects/magny/magny-5.png']
