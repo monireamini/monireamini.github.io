@@ -18,6 +18,13 @@ const myPortfolio = {
     experience: [
         {
             title: "Frontend Developer",
+            company: "MetaOra",
+            year: "July 2023 - Present",
+            companyLink: "https://www.metalearnlang.com/",
+            desc: "JavaScript . TypeScript . React Native . MobX . Realm",
+        },
+        {
+            title: "Frontend Developer",
             company: "Uliss",
             year: "Nov 2022 - Present",
             companyLink: "https://uliss.ir",
