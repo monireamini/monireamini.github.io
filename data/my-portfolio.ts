@@ -18,17 +18,17 @@ const myPortfolio = {
     experience: [
         {
             title: "Frontend Developer",
-            company: "MetaOra",
-            year: "July 2023 - Present",
-            companyLink: "https://www.metalearnlang.com/",
-            desc: "JavaScript . TypeScript . React Native . MobX . Realm",
-        },
-        {
-            title: "Frontend Developer",
             company: "Uliss",
             year: "Nov 2022 - Present",
             companyLink: "https://uliss.ir",
             desc: "Redux.js · Redux Toolkit · LESS (Stylesheet Language) · Ant Design · Progressive Web Applications (PWAs) · React.js · JavaScript",
+        },
+        {
+            title: "Frontend Developer",
+            company: "MetaOra",
+            year: "July 2023 - November 2023",
+            companyLink: "https://www.metalearnlang.com/",
+            desc: "JavaScript . TypeScript . React Native . MobX . Realm",
         },
         {
             title: "Frontend Developer",
