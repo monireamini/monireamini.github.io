@@ -46,7 +46,7 @@ const myPortfolio = {
         },
     ],
     resumeUrl:
-        "https://drive.google.com/file/d/1NTeUtz_nzCObxQH1Hm2s5ih8v5ZWnMrq",
+        "https://drive.google.com/file/d/1DOvgtujWCxvE3z_xB2TQjOWVXTZvfuaP",
     socialLinks: {
         linkedin: 'https://www.linkedin.com/in/monirehamini/',
         github: 'https://github.com/monireamini',
