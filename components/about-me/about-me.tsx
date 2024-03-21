@@ -14,7 +14,7 @@ export default function AboutMe() {
             <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
                 <div className="text-container max-w-6xl mx-auto pt-20">
                     <p
-                        className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+                        className="leading-loose text-2xl md:text-4xl font-semibold mx-4"
                         style={{lineHeight: "3rem"}}
                     >
                         {myPortfolio.about.title}
@@ -31,7 +31,7 @@ export default function AboutMe() {
                         {myPortfolio.about.description?.map((desc, idx) => (
                             <p
                                 key={idx}
-                                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+                                className="text-xl text-gray-700 mb-4 dark:text-gray-300 text-justify"
                             >
                                 {desc}
                             </p>
@@ -87,6 +87,10 @@ export default function AboutMe() {
                             />
                             <img
                                 src="/tech-stack/redux.png"
+                                className="h-20 w-20 mx-4 my-4"
+                            />
+                            <img
+                                src="/tech-stack/mobx.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img

@@ -64,18 +64,18 @@ const SocialButtons = () => {
                         </p>
                     </a>
                 </div>
-                <div className="flex flex-row justify-start items-center">
-                    <a
-                        href={myPortfolio.socialLinks.instagram}
-                        className="flex flex-row items-center space-x-4 group"
-                    >
-                        <p className="my-4">&rarr;</p>
-                        <p
-                            className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                            Instagram
-                        </p>
-                    </a>
-                </div>
+                {/*<div className="flex flex-row justify-start items-center">*/}
+                {/*    <a*/}
+                {/*        href={myPortfolio.socialLinks.instagram}*/}
+                {/*        className="flex flex-row items-center space-x-4 group"*/}
+                {/*    >*/}
+                {/*        <p className="my-4">&rarr;</p>*/}
+                {/*        <p*/}
+                {/*            className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">*/}
+                {/*            Instagram*/}
+                {/*        </p>*/}
+                {/*    </a>*/}
+                {/*</div>*/}
             </div>
         </div>
     )

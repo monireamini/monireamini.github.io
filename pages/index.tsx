@@ -12,7 +12,7 @@ export default function Home() {
             <Projects/>
             <Recommendations />
             {/*<Repositories/>*/}
-            <GithubStats />
+            {/*<GithubStats />*/}
         </MainLayout>
     )
 }
