@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SectionHeader = ({title, buttonLabel, linkPath}) => {
     return (
-        <header className="flex flex-col md:flex-row justify-between items-center py-10 mx-10 md:my-20 lg:my-0">
+        <header className="flex flex-col md:flex-row justify-between items-center py-10 mx-10 lg:my-0">
             <h1 className="text-4xl lg:text-6xl max-w-lg font-bold text-gray-500 mb-10 md:my-0 md:text-white dark:text-gray-600 text-center">
                 {title}
             </h1>
