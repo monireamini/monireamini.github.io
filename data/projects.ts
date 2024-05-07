@@ -20,6 +20,16 @@ const projects = [
         images: ['/projects/pouyabash/pouyabash-1.png', '/projects/pouyabash/pouyabash-2.png', '/projects/pouyabash/pouyabash-3.png', '/projects/pouyabash/pouyabash-4.png', '/projects/pouyabash/pouyabash-5.png']
     },
     {
+        id: 'fleet',
+        title: 'Fleet',
+        images: ['/projects/fleet/fleet-1.png', '/projects/fleet/fleet-2.png', '/projects/fleet/fleet-3.png', '/projects/fleet/fleet-4.png', '/projects/fleet/fleet-5.png']
+    },
+    {
+        id: 'uliss',
+        title: 'Uliss',
+        images: ['/projects/uliss/uliss-1.png', '/projects/uliss/uliss-2.png', '/projects/uliss/uliss-3.png', '/projects/uliss/uliss-4.png', '/projects/uliss/uliss-5.png']
+    },
+    {
         id: 'soha',
         title: 'Soha Academy',
         images: ['/projects/soha/soha-1.png', '/projects/soha/soha-2.png', '/projects/soha/soha-3.png', '/projects/soha/soha-4.png', '/projects/soha/soha-5.png']
