@@ -19,8 +19,8 @@ const MainLayout = ({children, ...customMeta}) => {
       <div>
         <Head>
           <title>{meta.title}</title>
-          <meta name="robots" content="follow, index" />
-          <meta content={meta.description} name="description" />
+          <meta name="robots" content="follow, index"/>
+          <meta content={meta.description} name="description"/>
           <meta
               property="og:url"
               content={`https://monireamini.github.io${router.asPath}`}
@@ -29,20 +29,23 @@ const MainLayout = ({children, ...customMeta}) => {
               rel="canonical"
               href={`https://monireamini.github.io${router.asPath}`}
           />
-          <meta property="og:type" content={meta.type} />
-          <meta property="og:site_name" content="Monireh Amini" />
-          <meta property="og:description" content={meta.description} />
-          <meta property="og:title" content={meta.title} />
-          <meta property="og:image" content={meta.image} />
+          <meta property="og:type" content={meta.type}/>
+          <meta property="og:site_name" content="Monireh Amini"/>
+          <meta property="og:description" content={meta.description}/>
+          <meta property="og:title" content={meta.title}/>
+          <meta property="og:image" content={meta.image}/>
+          <script async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7379773653640366"
+                  crossOrigin="anonymous"></script>
           {/*{meta.date && (*/}
           {/*    <meta property="article:published_time" content={meta.date} />*/}
           {/*)}*/}
         </Head>
 
         <main className="dark:bg-gray-800 w-full">
-          <Navbar />
+          <Navbar/>
           <div>{children}</div>
-          <Footer />
+          <Footer/>
         </main>
 
       </div>
