@@ -3,8 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Monireh Amini — iOS Engineer</title>
-<meta name="description" content="Monireh Amini — Senior iOS Engineer based in Tehran. Swift, SwiftUI, UIKit, and seven years building consumer products.">
+<title>Monireh Amini</title>
+<meta name="description" content="Shipping consumer apps for 7+ years — iOS Engineer specializing in Swift and SwiftUI.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://monireamini.github.io/">
+<meta property="og:title" content="Monireh Amini">
+<meta property="og:description" content="Shipping consumer apps for 7+ years — iOS Engineer specializing in Swift and SwiftUI.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Monireh Amini">
+<meta name="twitter:description" content="Shipping consumer apps for 7+ years — iOS Engineer specializing in Swift and SwiftUI.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -102,6 +109,19 @@
     border-radius:50%; background:var(--accent);
     box-shadow:0 0 0 4px rgba(61,95,224,0.15);
   }
+  .exp-dot::after{
+    content:""; position:absolute; inset:-6px; border-radius:50%;
+    border:1.5px solid rgba(61,95,224,0.55);
+    animation:dot-pulse 2.4s ease-out infinite;
+    pointer-events:none;
+  }
+  @keyframes dot-pulse{
+    0%{ transform:scale(0.6); opacity:0.9; }
+    100%{ transform:scale(1.6); opacity:0; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .exp-dot::after{ animation:none; display:none; }
+  }
   .exp-inner{
     background:var(--glass-strong); border:1px solid var(--glass-border);
     backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px);
@@ -180,9 +200,9 @@
 <main>
 
   <section class="hero">
-    <div class="kicker">iOS Engineer · Tehran, Iran</div>
-    <h1>Building iOS products people actually use</h1>
-    <p class="tagline">Seven years shipping consumer apps — the last two in native Swift and SwiftUI, before that across React, React Native, and modern JavaScript stacks.</p>
+    <div class="kicker">iOS Engineer</div>
+    <h1>Shipping consumer apps for 7+ years</h1>
+    <p class="tagline">The last two years in native Swift and SwiftUI — before that, React, React Native, and modern JavaScript stacks.</p>
     <div class="hero-actions">
       <a class="glass-btn primary" href="mailto:monireamini@gmail.com">Email me</a>
       <a class="glass-btn" href="https://linkedin.com/in/monirehamini" target="_blank" rel="noopener">LinkedIn</a>
@@ -193,8 +213,8 @@
   <section id="about">
     <h2>About</h2>
     <div class="panel about">
-      <p>I work on the Food ordering vertical at Ninja, handling the front-end implementation as the app moves from React Native to native Swift, SwiftUI, and UIKit — a migration that's preserved existing sessions with no forced re-login. My day-to-day now is native iOS: building features that hold up at scale.</p>
-      <p>Before iOS, I spent several years building consumer products end to end in JavaScript and TypeScript — React, React Native, Next.js, and Node — across teams in the UK, Turkey, and Australia. That background still shapes how I think about state, APIs, and the trade-offs of building for more than one platform.</p>
+      <p>Engineer with 7+ years building consumer-facing applications across JavaScript, TypeScript, React, and React Native, with additional specialization in native iOS (Swift, SwiftUI, UIKit).</p>
+      <p>I've worked on client-facing features and shared commerce flows end-to-end — from implementation to optimization and rollout — across large-scale products and multiple platforms, including React PWAs, Next.js, and CMS platforms. Comfortable across frontend architecture, API integration (GraphQL, REST), performance optimization, and analytics, with experience mentoring engineers and establishing coding standards.</p>
     </div>
   </section>
 
@@ -207,7 +227,7 @@
         <div class="exp-inner">
           <div class="exp-head">
             <div><span class="exp-role">Senior iOS Developer</span> <span class="exp-company">· Ninja</span></div>
-            <div class="exp-period">Sep 2024 – present</div>
+            <div class="exp-period">Sep 2024 – Sep 2026</div>
           </div>
           <div class="exp-meta">Riyadh, Saudi Arabia · Remote</div>
           <ul class="exp-list">
@@ -319,15 +339,21 @@
           <div class="chip">Combine</div>
           <div class="chip">Swift Concurrency</div>
           <div class="chip">Xcode</div>
+          <div class="chip">SwiftLint</div>
+          <div class="chip">Live Activities</div>
+          <div class="chip">Deep Linking</div>
+          <div class="chip">Universal Links</div>
         </div>
       </div>
       <div class="skill-group">
-        <h3>Architecture</h3>
+        <h3>Architecture &amp; state</h3>
         <div class="chips">
           <div class="chip">MVVM</div>
           <div class="chip">Dependency Injection</div>
-          <div class="chip">Deep Linking</div>
-          <div class="chip">Push Notifications</div>
+          <div class="chip">Context API</div>
+          <div class="chip">Redux</div>
+          <div class="chip">Redux Toolkit</div>
+          <div class="chip">Redux-Saga</div>
         </div>
       </div>
       <div class="skill-group">
@@ -338,22 +364,66 @@
           <div class="chip">TypeScript</div>
           <div class="chip">JavaScript</div>
           <div class="chip">Next.js</div>
-          <div class="chip">Redux</div>
           <div class="chip">Node.js</div>
+          <div class="chip">React Router</div>
         </div>
       </div>
       <div class="skill-group">
-        <h3>Product &amp; tooling</h3>
+        <h3>Styling</h3>
+        <div class="chips">
+          <div class="chip">SCSS</div>
+          <div class="chip">Tailwind CSS</div>
+          <div class="chip">Styled Components</div>
+          <div class="chip">CSS Modules</div>
+          <div class="chip">Material UI</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Integrations &amp; analytics</h3>
         <div class="chips">
           <div class="chip">GraphQL</div>
           <div class="chip">REST APIs</div>
           <div class="chip">Firebase</div>
+          <div class="chip">Apple Pay</div>
+          <div class="chip">Google Pay</div>
+          <div class="chip">Apple Maps</div>
+          <div class="chip">Google Maps</div>
+          <div class="chip">Push Notifications</div>
+          <div class="chip">Localization</div>
+          <div class="chip">i18next</div>
           <div class="chip">GA4</div>
+          <div class="chip">Adjust</div>
+          <div class="chip">RudderStack</div>
+          <div class="chip">CleverTap</div>
           <div class="chip">AppsFlyer</div>
+          <div class="chip">Sentry</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Testing &amp; tooling</h3>
+        <div class="chips">
           <div class="chip">Jest</div>
+          <div class="chip">Cypress</div>
           <div class="chip">Unit Testing</div>
+          <div class="chip">Formik / Yup</div>
           <div class="chip">Git</div>
+          <div class="chip">GitHub</div>
+          <div class="chip">GitLab</div>
           <div class="chip">Figma</div>
+          <div class="chip">Jira</div>
+          <div class="chip">Scrum</div>
+          <div class="chip">CI/CD</div>
+          <div class="chip">Webpack</div>
+          <div class="chip">pnpm</div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>AI tooling</h3>
+        <div class="chips">
+          <div class="chip">Python</div>
+          <div class="chip">Cursor</div>
+          <div class="chip">Claude Code</div>
+          <div class="chip">MCP</div>
         </div>
       </div>
     </div>
@@ -387,7 +457,7 @@
 
 </main>
 
-<footer>Monireh Amini · Tehran, Iran</footer>
+<footer>Monireh Amini</footer>
 
 </body>
 </html>
