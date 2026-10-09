@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Monireh Amini</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22t%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23fff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23D9E3FF%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22p%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%236D8BFF%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233D5FE0%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20x%3D%221.5%22%20y%3D%221.5%22%20width%3D%2261%22%20height%3D%2261%22%20rx%3D%2215%22%20fill%3D%22url%28%23t%29%22%20stroke%3D%22%233D5FE0%22%20stroke-opacity%3D%22.3%22%20stroke-width%3D%223%22%2F%3E%3Crect%20x%3D%229%22%20y%3D%2215%22%20width%3D%2238%22%20height%3D%2228%22%20rx%3D%225%22%20fill%3D%22%233D5FE0%22%20fill-opacity%3D%22.22%22%20stroke%3D%22%233D5FE0%22%20stroke-opacity%3D%22.55%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M9%2023H47%22%20stroke%3D%22%233D5FE0%22%20stroke-opacity%3D%22.4%22%20stroke-width%3D%221.5%22%2F%3E%3Crect%20x%3D%2231%22%20y%3D%2221%22%20width%3D%2224%22%20height%3D%2236%22%20rx%3D%226%22%20fill%3D%22url%28%23p%29%22%2F%3E%3Crect%20x%3D%2231.75%22%20y%3D%2221.75%22%20width%3D%2222.5%22%20height%3D%2234.5%22%20rx%3D%225.3%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-opacity%3D%22.55%22%20stroke-width%3D%221.5%22%2F%3E%3Crect%20x%3D%2239%22%20y%3D%2225.5%22%20width%3D%228%22%20height%3D%223%22%20rx%3D%221.5%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.9%22%2F%3E%3C%2Fsvg%3E">
 <meta name="description" content="Shipping consumer apps for 7+ years — iOS Engineer specializing in Swift and SwiftUI.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://monireamini.github.io/">
@@ -85,7 +86,9 @@
   }
   .glass-btn.primary{background:var(--accent); color:#fff; border:1px solid var(--accent-ink);}
 
-  section{padding:44px 0; scroll-margin-top:88px;}
+  section{padding:44px 0; scroll-margin-top:36px;}
+  /* lets the last sections scroll all the way up under the nav, so every nav link lands in the same spot */
+  #contact{min-height:calc(100vh - 150px);}
   section h2{font-family:'Manrope', sans-serif; font-weight:600; font-size:21px; margin-bottom:22px;}
 
   .panel{
@@ -162,7 +165,9 @@
     backdrop-filter:blur(20px) saturate(160%); -webkit-backdrop-filter:blur(20px) saturate(160%);
     border-radius:20px; padding:20px;
     box-shadow:0 20px 40px -28px rgba(20,23,31,0.22);
+    display:flex; flex-direction:column;
   }
+  .work-links{ margin-top:auto; padding-top:14px; display:flex; flex-wrap:wrap; gap:6px 14px; }
   .browser-chrome{
     background:var(--glass-strong); border-radius:10px 10px 0 0;
     padding:8px 10px; display:flex; gap:6px;
@@ -177,6 +182,8 @@
   }
   .website-viewport img{ width:100%; height:auto; display:block; }
   .work-card.wide{ grid-column:1 / -1; }
+  .work-sub{ font-size:13px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft); margin:0 0 14px; }
+  .work-grid + .work-sub{ margin-top:40px; }
   .phone-strip{
     display:flex; gap:10px; justify-content:center; flex-wrap:wrap;
     margin-bottom:14px;
@@ -200,7 +207,6 @@
   .work-tags{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px;}
   .work-tags .tag{font-size:11.5px; padding:3px 9px; border-radius:100px; background:var(--glass); border:1px solid var(--glass-border); color:var(--ink);}
   .work-link{font-size:13px; color:var(--accent); text-decoration:none; font-weight:500;}
-  .work-link + .work-link{margin-left:14px;}
   @media (max-width:640px){ .work-grid{grid-template-columns:1fr;} }
 
   .edu-inner{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;}
@@ -268,6 +274,7 @@
 
   <section id="work">
     <h2>Selected Work</h2>
+    <div class="work-sub">Mobile apps</div>
     <div class="work-grid">
 
       <div class="work-card">
@@ -281,8 +288,10 @@
         <div class="work-name">Ninja</div>
         <div class="work-meta">Quick-commerce delivery app in Saudi Arabia · iOS</div>
         <div class="work-tags"><span class="tag">Swift</span><span class="tag">SwiftUI</span><span class="tag">UIKit</span><span class="tag">Combine</span><span class="tag">Swift Concurrency</span><span class="tag">React Native</span><span class="tag">MVVM</span><span class="tag">Dependency Injection</span><span class="tag">Live Activities</span></div>
-        <a class="work-link" href="https://apps.apple.com/us/app/ninja-%D9%86%D9%8A%D9%86%D8%AC%D8%A7/id1620153149" target="_blank" rel="noopener">App Store →</a>
-        <a class="work-link" href="https://play.google.com/store/apps/details?id=com.ananinja.lava" target="_blank" rel="noopener">Google Play →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://apps.apple.com/us/app/ninja-%D9%86%D9%8A%D9%86%D8%AC%D8%A7/id1620153149" target="_blank" rel="noopener">App Store →</a>
+          <a class="work-link" href="https://play.google.com/store/apps/details?id=com.ananinja.lava" target="_blank" rel="noopener">Google Play →</a>
+        </div>
       </div>
 
       <div class="work-card">
@@ -309,8 +318,10 @@
         <div class="work-name">MetaOra</div>
         <div class="work-meta">English-learning app — lessons from video &amp; audio content with AI chat practice · Android &amp; iOS</div>
         <div class="work-tags"><span class="tag">React Native</span><span class="tag">Reanimated</span></div>
-        <a class="work-link" href="https://apps.apple.com/us/app/metaora-fast-english-learning/id6444627980" target="_blank" rel="noopener">App Store →</a>
-        <a class="work-link" href="https://play.google.com/store/apps/details?id=com.metalearnlang.app" target="_blank" rel="noopener">Google Play →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://apps.apple.com/us/app/metaora-fast-english-learning/id6444627980" target="_blank" rel="noopener">App Store →</a>
+          <a class="work-link" href="https://play.google.com/store/apps/details?id=com.metalearnlang.app" target="_blank" rel="noopener">Google Play →</a>
+        </div>
       </div>
 
       <div class="work-card">
@@ -324,11 +335,13 @@
         <div class="work-name">Magny</div>
         <div class="work-meta">Community app for Persian speakers in Australia — find people, businesses, events &amp; classifieds · with CMS &amp; Node.js backend</div>
         <div class="work-tags"><span class="tag">React Native</span><span class="tag">Node.js</span><span class="tag">React</span><span class="tag">CMS</span></div>
-        <a class="work-link" href="https://apps.apple.com/au/app/magny/id1516611723" target="_blank" rel="noopener">App Store →</a>
-        <a class="work-link" href="https://play.google.com/store/apps/details?id=com.magny" target="_blank" rel="noopener">Google Play →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://apps.apple.com/au/app/magny/id1516611723" target="_blank" rel="noopener">App Store →</a>
+          <a class="work-link" href="https://play.google.com/store/apps/details?id=com.magny" target="_blank" rel="noopener">Google Play →</a>
+        </div>
       </div>
 
-      <div class="work-card wide">
+      <div class="work-card">
         <div class="phone-row">
           <div class="mini-phone"><img src="https://hel1.your-objectstorage.com/winatalent-pro/cvattachments/32e7cd80-c7c2-4d5f-a1f0-a2e84d7c91ca.png" alt="Pouya Bash app screen"></div>
           <div class="mini-phone"><img src="https://hel1.your-objectstorage.com/winatalent-pro/cvattachments/a17eadfb-77ed-4068-a726-d9993a332c67.png" alt="Pouya Bash app screen"></div>
@@ -340,6 +353,10 @@
         <div class="work-meta">Gold investment app · React Native · Persian/RTL</div>
         <div class="work-tags"><span class="tag">React Native</span><span class="tag">RTL</span></div>
       </div>
+    </div>
+
+    <div class="work-sub">Websites</div>
+    <div class="work-grid">
 
       <div class="work-card">
         <div class="browser-chrome"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="url">pezeshkekhoob.com</div></div>
@@ -349,7 +366,9 @@
         <div class="work-name">Pezeshkekhoob</div>
         <div class="work-meta">React Native app, PWA &amp; Next.js site</div>
         <div class="work-tags"><span class="tag">React Native</span><span class="tag">Next.js</span><span class="tag">CMS</span></div>
-        <a class="work-link" href="https://ravandarman.com/" target="_blank" rel="noopener">View site →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://ravandarman.com/" target="_blank" rel="noopener">View site →</a>
+        </div>
       </div>
 
       <div class="work-card">
@@ -360,7 +379,9 @@
         <div class="work-name">Pouya Bash</div>
         <div class="work-meta">Gold investment platform · Persian/RTL</div>
         <div class="work-tags"><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">RTL</span></div>
-        <a class="work-link" href="https://pouyabash.com/" target="_blank" rel="noopener">View site →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://pouyabash.com/" target="_blank" rel="noopener">View site →</a>
+        </div>
       </div>
 
       <div class="work-card">
@@ -371,7 +392,9 @@
         <div class="work-name">Moshavere360</div>
         <div class="work-meta">Educational consulting platform · Persian/RTL</div>
         <div class="work-tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">RTL</span></div>
-        <a class="work-link" href="https://moshavere360.ir/" target="_blank" rel="noopener">View site →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://moshavere360.ir/" target="_blank" rel="noopener">View site →</a>
+        </div>
       </div>
 
       <div class="work-card">
@@ -382,7 +405,9 @@
         <div class="work-name">Karnameh Interview</div>
         <div class="work-meta">Dynamic dashboard · interview project</div>
         <div class="work-tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span></div>
-        <a class="work-link" href="https://karnameh-int.vercel.app/" target="_blank" rel="noopener">View site →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://karnameh-int.vercel.app/" target="_blank" rel="noopener">View site →</a>
+        </div>
       </div>
 
       <div class="work-card">
@@ -393,7 +418,9 @@
         <div class="work-name">Hotel Booking</div>
         <div class="work-meta">Booking interface · interview project</div>
         <div class="work-tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span></div>
-        <a class="work-link" href="https://hotel-booking-interview.vercel.app/" target="_blank" rel="noopener">View site →</a>
+        <div class="work-links">
+          <a class="work-link" href="https://hotel-booking-interview.vercel.app/" target="_blank" rel="noopener">View site →</a>
+        </div>
       </div>
 
     </div>
